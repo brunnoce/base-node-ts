@@ -4,7 +4,8 @@ Plantilla base para crear APIs con Node.js y TypeScript, con soporte para recarg
 
 ---
 
-## IDEAL PARA:
+## 🔥 IDEAL PARA:
+
     APIs REST
 
     Backends para login / autenticación
@@ -27,6 +28,16 @@ Plantilla base para crear APIs con Node.js y TypeScript, con soporte para recarg
 
 ---
 
+## 📝 Notas
+
+El archivo tsconfig.json está configurado para usar @/ como alias de src/.
+
+El código fuente debe ir dentro de la carpeta src/.
+
+El código compilado irá a dist/ al correr npm run build.
+
+---
+
 ## 🛠️ Scripts disponibles
 
 | Comando        | Descripción                                                      |
@@ -43,11 +54,7 @@ Plantilla base para crear APIs con Node.js y TypeScript, con soporte para recarg
 ## 🔧 Instalación
 
 ```bash
-git clone https://github.com/tuusuario/mi-api-node.git
-cd mi-api-node
+git clone https://github.com/brunnoce/base-node-ts
+cd base-node-ts
 npm install
 npm run dev
-
-
-
-
