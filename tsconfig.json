@@ -13,14 +13,11 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["./*"]
     }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"],
-  "ts-node": {
-    "require": ["tsconfig-paths/register"]
-  }
 }
 
 // Bruno Cé
